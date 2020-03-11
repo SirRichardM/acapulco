@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navigation {
+  background-color: #9C0A0D;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Alfa Slab One', cursive;
+  color: white;
+  text-shadow: 5px #2C673D;
+  font-size: 2.5vh;
+}
+
+.navigation a {
+  text-shadow: 5px #2C673D;
+}
+
+.mainphoto {
+ 
+}
+
+.title {
+  background-image: url(https://d37219swed47g7.cloudfront.net/media/reviews/acapulco-deli/banners/Acapulco-Deli_0.jpg);
+  height: 100vh;
+  
+}
+
+.aca {
+  opacity: .75;
+  float: left;
+  margin: 3.5vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.homie {
+  margin: 3vh 25vw;
+}
+
+.yes img {
+  
+}
+.yes {
+  
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  padding: 2vh;
+  
+  
+}
+.navigation a:hover {
+  color: #436946;
+  text-shadow: 2px 2px white;
+  transform: scale(1.1)
+}
+
+.homie h1 {
+  font-family: 'Bevan', cursive;
+}
+
+.hometext {
+  padding-top: 5vh;
+  font-size: 2vh;
+}
+
+.hours {
+  font-size: 2.5vh;
+}
